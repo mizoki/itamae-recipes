@@ -1,8 +1,8 @@
 # nginx
 
-template 'add nginx repo' do
+remote_file 'add nginx repo' do
   action :create
-  source 'template/nginx.repo'
+  source 'files/nginx.repo'
   path '/etc/yum.repos.d/nginx.repo'
   owner 'root'
   group 'root'
