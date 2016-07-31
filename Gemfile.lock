@@ -3,7 +3,7 @@ GEM
   specs:
     ansi (1.5.0)
     hashie (3.4.4)
-    itamae (1.9.8)
+    itamae (1.9.9)
       ansi
       hashie
       schash (~> 0.1.0)
@@ -17,7 +17,7 @@ GEM
     net-telnet (0.1.1)
     schash (0.1.2)
     sfl (2.2)
-    specinfra (2.59.3)
+    specinfra (2.60.2)
       net-scp
       net-ssh (>= 2.7, < 4.0)
       net-telnet
@@ -28,7 +28,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  itamae (= 1.9.8)
+  itamae (= 1.9.9)
   itamae-plugin-recipe-selinux (~> 0.0.5)
 
 BUNDLED WITH
