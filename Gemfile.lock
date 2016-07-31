@@ -11,10 +11,17 @@ GEM
       thor
     itamae-plugin-recipe-selinux (0.0.5)
       itamae
+    itamae-plugin-resource-encrypted_remote_file (0.0.2)
+      itamae (>= 1.2)
+      reversible_cryptography
+    itamae-secrets (0.1.0)
+      thor
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (3.2.0)
     net-telnet (0.1.1)
+    reversible_cryptography (0.5.0)
+      thor
     schash (0.1.2)
     sfl (2.2)
     specinfra (2.60.2)
@@ -30,6 +37,9 @@ PLATFORMS
 DEPENDENCIES
   itamae (= 1.9.9)
   itamae-plugin-recipe-selinux (~> 0.0.5)
+  itamae-plugin-resource-encrypted_remote_file (= 0.0.2)
+  itamae-secrets (= 0.1.0)
+  reversible_cryptography (= 0.5.0)
 
 BUNDLED WITH
    1.11.2
